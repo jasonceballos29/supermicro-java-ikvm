@@ -5,11 +5,11 @@ services:
     container_name: supermicro-java-ikvm
     environment:
       TZ: UTC
-      USER_ID: 1000
+      USER_ID: 2000
       GROUP_ID: 1000
-      KVM_HOST: # IP or Hostname
-      KVM_USER: # Your IPMI Username
-      KVM_PASS: # Your IPMI Password
+      KVM_HOST: 192.168.1.152 # IP or Hostname
+      KVM_USER: ADMIN # Your IPMI Username
+      KVM_PASS: 335ruugm35 # Your IPMI Password
       DISPLAY_WIDTH: 1024 # Display Width
       DISPLAY_HEIGHT: 768 # Display Height
     ports:
